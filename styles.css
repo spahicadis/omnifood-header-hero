@@ -1,3 +1,22 @@
-body {
-  margin: 0px;
+* {
+  margin: 0;
+  padding: 0;
 }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 15px;
+}
+
+.logo-header {
+  width: 15%;
+}
+
+.menu-links{
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+
