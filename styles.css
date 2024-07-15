@@ -35,6 +35,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   background-color: #fdf2e9;
+  position: relative;
 }
 
 .logo-container {
@@ -72,6 +73,7 @@ h1 {
 
 .toogle {
   width: 30px;
+  cursor: pointer;
 }
 
 .nav-mobile {
@@ -83,7 +85,17 @@ h1 {
   padding-right: 48px;
   height: 96px;
   background-color: #fdf2e9;
+  position: relative;
 }
+
+.hamburger-menu-list {
+  display: none;
+}
+
+.hamburger-menu-list-open {
+  display: block;
+}
+
 
 .hero {
   display: flex;

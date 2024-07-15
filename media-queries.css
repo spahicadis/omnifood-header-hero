@@ -1,8 +1,7 @@
 @media screen and (min-width: 945px)  {
   .nav-mobile {
     display: none;
-  } 
-  
+  }
 }
 
 @media screen and  (max-width: 944px) {
@@ -12,5 +11,18 @@
 
   .logo {
    width: 90px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
