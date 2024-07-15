@@ -4,6 +4,28 @@
   font-family: Rubik, sans-serif;
 }
 
+a {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #333
+}
+
+.a-links {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+
 .nav-desktop {
   display: flex;
   flex-direction: row;
@@ -30,15 +52,6 @@
   text-decoration: none;
   gap: 3rem;
   align-items: center;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-a {
-  font-size: 18px;
-  font-weight: 500;
-  text-decoration: none;
-  color: #333
 }
 
 .btn-nav-destkop {
@@ -86,6 +99,8 @@ a {
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 40px;
+  margin-left: 98.5px;
+  margin-right: 98.5px;
 }
 
 .heading-hero {
@@ -97,6 +112,81 @@ a {
 .img-hero {
   width: 80%;
 }
+
+.heading-text {
+  width: 540px;
+  line-height: 30px;
+}
+
+.btns-hero {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.cta {
+  border: none;
+  background-color: #e67e22;;
+  width:  225.461px;
+  padding: 10px 15px;
+  border-radius: 13px;
+}
+
+.btn1-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.more {
+  border: none;
+  background-color: #FFF;
+  width: 194.102px;
+  padding: 10px 15px;
+  border-radius: 9px;
+}
+
+.btn2-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.clients-img {
+  width: 40px;
+  border-radius: 25px;
+  margin-left: -16px;
+  border: 2px solid #fdf2e9;
+}
+
+.img-allign {
+  margin: 0px;
+}
+
+.stats {
+  margin-left: 25px;
+}
+
+.nums {
+  color: rgb(207, 113, 31);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.clients-stats {
+  color: rgb(85, 85, 85);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+
 
 
 
