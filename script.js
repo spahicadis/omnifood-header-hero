@@ -1,10 +1,6 @@
-function toogle() {
-  const hamburger = document.querySelector('.toogle');
-  hamburger.addEventListener('click', function() {
-    const mobileMenuList = document.querySelector('.hamburger-menu-list');
-    mobileMenuList.classList.add('hamburger-menu-list-open')
-    
-  })
-}
+const hamburger = document.querySelector('.hamburger-menu');
+const nav = document.querySelector('.nav-desktop');
 
-toogle()
+  hamburger.addEventListener('click', function() {
+  nav.classList.contains('transition-nav') ? nav.classList.remove('transition-nav') : nav.classList.add('transition-nav')  
+  });

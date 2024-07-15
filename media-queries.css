@@ -1,12 +1,21 @@
 @media screen and (min-width: 945px)  {
-  .nav-mobile {
-    display: none;
-  }
+  
 }
 
 @media screen and  (max-width: 944px) {
+  .hamburger-menu {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
   .nav-desktop {
-    display: none;
+    position: absolute;
+    background-color: #fff;
+    opacity: .95;
+    height: 100vh;
+    transition: all .3s;
+    transform: translateX(100%);
   }
 
   .logo {
@@ -25,4 +34,8 @@
     justify-content: center;
     align-items: center;
   }
+}
+
+.transition-nav {
+  transform: translateX(0);
 }
